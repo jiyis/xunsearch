@@ -1,0 +1,67 @@
+{
+    "name": "jiyis/xunsearch",
+    "description": "The xunsearch sdk for laravel scout.",
+    "keywords": ["xunsearch", "laravel"],
+    "license": "MIT",
+    "homepage": "https://gary.yearn.cc",
+    "support": {
+        "issues": "https://github.com/jiyis/xunsearch/issues",
+        "source": "https://github.com/jiyis/xunsearch"
+    },
+    "authors": [
+        {
+            "name": "Gary P Dong",
+            "email": "425995717@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+        "ext-mbstring": "*",
+		"lib-pcre": "*"
+    },
+    "require-dev": {
+    },
+    "replace": {
+        "illuminate/auth": "self.version",
+        "illuminate/broadcasting": "self.version",
+        "illuminate/bus": "self.version",
+        "illuminate/cache": "self.version",
+        "illuminate/config": "self.version",
+        "illuminate/console": "self.version",
+        "illuminate/container": "self.version",
+        "illuminate/contracts": "self.version",
+        "illuminate/cookie": "self.version",
+        "illuminate/database": "self.version",
+        "illuminate/encryption": "self.version",
+        "illuminate/events": "self.version",
+        "illuminate/exception": "self.version",
+        "illuminate/filesystem": "self.version",
+        "illuminate/hashing": "self.version",
+        "illuminate/http": "self.version",
+        "illuminate/log": "self.version",
+        "illuminate/mail": "self.version",
+        "illuminate/notifications": "self.version",
+        "illuminate/pagination": "self.version",
+        "illuminate/pipeline": "self.version",
+        "illuminate/queue": "self.version",
+        "illuminate/redis": "self.version",
+        "illuminate/routing": "self.version",
+        "illuminate/session": "self.version",
+        "illuminate/support": "self.version",
+        "illuminate/translation": "self.version",
+        "illuminate/validation": "self.version",
+        "illuminate/view": "self.version",
+        "tightenco/collect": "self.version"
+    },
+    "autoload": {
+        "files": [
+            "sdk/lib/xs.php",
+        ],
+        "psr-4": {
+        	"App\\": "app/",
+            "Jiyis\\XunSearch": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
